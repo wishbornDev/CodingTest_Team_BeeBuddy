@@ -41,3 +41,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### grandle 모듈 ###
+untitled
+./untitled/*
+untitled.iml

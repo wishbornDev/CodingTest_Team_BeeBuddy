@@ -1,4 +1,4 @@
-package com.codingtest.chs.class1;
+package main.java.com.codingtest.chs.class1;
 
 import java.util.Scanner;
 
