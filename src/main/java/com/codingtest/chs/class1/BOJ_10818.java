@@ -8,7 +8,7 @@ public class BOJ_10818 {
 
         int testCase = sc.nextInt();
         int maxNum = -1000000;
-        int minNum = +10000000;
+        int minNum = 10000000;
         while(testCase-- > 0){
             int num = sc.nextInt();
             maxNum = Math.max(num, maxNum);
