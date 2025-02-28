@@ -1,6 +1,5 @@
 package main.java.com.codingtest.chs.class2;
 
-import javax.imageio.IIOException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
