@@ -1,4 +1,5 @@
 package main.java.com.codingtest.ksw.class1;
+
 import java.util.Scanner;
 
 public class BOJ_2439 {
