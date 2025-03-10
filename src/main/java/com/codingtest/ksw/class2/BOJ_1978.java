@@ -1,4 +1,4 @@
-package src.main.java.com.codingtest.ksw.class2;
+package main.java.com.codingtest.ksw.class2;
 
 
 import java.io.BufferedReader;

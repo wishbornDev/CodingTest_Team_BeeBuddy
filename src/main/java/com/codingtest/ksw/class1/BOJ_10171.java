@@ -1,4 +1,4 @@
-package src.main.java.com.codingtest.ksw.class1;
+package main.java.com.codingtest.ksw.class1;
 
 public class BOJ_10171 {
     public static void main(String[] args) {
