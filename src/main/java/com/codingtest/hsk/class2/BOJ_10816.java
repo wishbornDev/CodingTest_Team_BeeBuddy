@@ -1,16 +1,13 @@
 package main.java.com.codingtest.hsk.class2;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
 public class BOJ_10816 {
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         HashMap<Integer, Integer> hm = new HashMap<>();
 
         int N = Integer.parseInt(br.readLine());
@@ -22,13 +19,13 @@ public class BOJ_10816 {
 
         int M = Integer.parseInt(br.readLine());
         StringTokenizer st2 = new StringTokenizer(br.readLine());
+        StringBuilder sb = new StringBuilder();
         for (int i=0; i<M; i++) {
             int num = Integer.parseInt(st2.nextToken());
-            bw.write(hm.getOrDefault(num, 0)+" ");
+            sb.append(hm.getOrDefault(num, 0)).append(" ");
         }
 
-        bw.flush();
-        bw.close();
+        System.out.println(sb.toString());
 
     }
 }
