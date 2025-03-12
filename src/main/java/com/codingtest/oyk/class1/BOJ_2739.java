@@ -7,7 +7,7 @@ public class BOJ_2739 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int result = 0;
+        int result;
 
         if(n >= 1 && n <= 9) {
             for(int i = 1; i <= 9; i++) {
