@@ -9,11 +9,14 @@ public class BOJ_15829 {
         int L = Integer.parseInt(br.readLine());
         String str = br.readLine();
 
-        int sum = 0;
-        int r = 1;
+        long sum = 0;
+        long r = 1;
+        int M = 1234567891;
+        int R = 31;
         for (int i=0; i<L; i++) {
-            sum += (int)((str.charAt(i)-'a'+1) * r) % 1234567891;
-            r = (r * 31) % 1234567891;
+            int value = str.charAt(i) - 'a' + 1;
+            sum = (sum + value * r) % M;
+            r = (r * R) % M;
         }
 
         System.out.println(sum);
